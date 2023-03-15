@@ -17,7 +17,7 @@ class Store {
 
   constructor ( id: string ) {
 
-    this.store = new LocalStore ( id );
+    this.store = new LocalStore ( `github-logger-${id}` );
 
   }
 
