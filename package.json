@@ -2,7 +2,7 @@
   "name": "github-logger",
   "repository": "github:fabiospampinato/github-logger",
   "description": "A simple logger for GitHub repositories, with various backends.",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "type": "module",
   "main": "dist/index.js",
   "exports": "./dist/index.js",
