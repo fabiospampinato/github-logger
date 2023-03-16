@@ -41,6 +41,12 @@ const last = <T> ( arr: T[] ): T => {
 
 };
 
+const timestamp = (): string => {
+
+  return new Date ().toISOString ();
+
+};
+
 /* EXPORT */
 
-export {delay, getGithubCommits, isString, last};
+export {delay, getGithubCommits, isString, last, timestamp};
